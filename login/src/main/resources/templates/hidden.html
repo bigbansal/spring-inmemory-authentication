@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"
+xmlns="http://www.w3.org/1999/xhtml"
+xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>You Found Me</title>
+</head>
+<body>
+<div layout:fragment="content">
+    <form th:action="@{/logout}" th:method="post">
+        <button type="submit">Logout</button>
+    </form>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xjmqKKIPoB0"
+            frameborder="0"
+            allow="autoreplay; encrypted-media"
+            allowfullscreen>
+
+    </iframe>
+
+</div>
+</body>
+</html>
