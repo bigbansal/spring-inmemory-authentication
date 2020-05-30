@@ -4,14 +4,14 @@ server:
 com:
   project:
     aws:
-      userPoolId: "ap-south-1_hH0UXEwb5"
+      userPoolId: "ap-south-1_Dummy"
       region: "ap-south-1"
       connectionTimeout: 2000
       readTimeout: 2000
       userNameField: "cognito:username"
       httpHeader : "Authorization"
-      jwkUrl: "https://cognito-idp.ap-south-1.amazonaws.com/ap-south-1_hH0UXEwb5/.well-known/jwks.json"
-      cognitoIdentityPoolUrl: "https://cognito-idp.ap-south-1.amazonaws.com/ap-south-1_hH0UXEwb5"
+      jwkUrl: "https://cognito-idp.ap-south-1.amazonaws.com/ap-south-1_Dummy/.well-known/jwks.json"
+      cognitoIdentityPoolUrl: "https://cognito-idp.ap-south-1.amazonaws.com/ap-south-1_Dummy"
       allowedRoles:
         - "ROLE_ADMIN"
         - "ROLE_MEMBERS"
